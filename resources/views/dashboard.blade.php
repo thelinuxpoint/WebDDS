@@ -17,7 +17,7 @@
                 color: white;
                 font-family: 'Nunito', sans-serif;
                 background-color: #000000;
-/*                background-image: url({{ asset('images/shape.svg') }});*/
+                background-image: url({{ asset('images/shape.svg') }});
                 background-position: center;
                 background-size: contain;
                 background-attachment: fixed;
@@ -39,24 +39,13 @@
                 <button>Learn More</button>
                 <br/>
             </div>
-
         </div>
         <x-navigator/>
-        <div class="content-center">
-            <img src="{{asset('images/g14.svg')}}" style="position: fixed;top: 150px; opacity: 0.5;z-index: -1;" /> 
-        </div>
-        <x-nav-container/>
+        {{-- <x-nav-container/> --}}
 
-        <footer>
-            <div class="g14-footer">
-                <div>
-                    <h2>Follow Our Social Media</h2>
-                    <p></p>
-                </div>
-                <div>
-                    <h2>Our Team Members</h2>
-                </div>
-            </div>
+        <footer class="footer-out">
+
+
         </footer>
     </body>
 </html>

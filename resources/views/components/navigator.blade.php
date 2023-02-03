@@ -99,6 +99,3 @@
     </div>
 
 </div>
-<div class="content-center">
-    <img src="{{asset('images/g14.svg')}}" style="position:fixed;top:150px;opacity:0.5;z-index:-1;"/> 
-</div>
