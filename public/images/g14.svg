@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="130mm"
+   height="100mm"
+   viewBox="0 0 130 100"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (1:1.2.1+202210291243+9c6d41e410)"
+   sodipodi:docname="g14.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0084456"
+     inkscape:cx="235.51097"
+     inkscape:cy="188.40877"
+     inkscape:window-width="1366"
+     inkscape:window-height="740"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient1115"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1113" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1037">
+      <stop
+         style="stop-color:#004eff;stop-opacity:1;"
+         offset="0"
+         id="stop1033" />
+      <stop
+         style="stop-color:#59ffff;stop-opacity:1;"
+         offset="1"
+         id="stop1035" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1037"
+       id="linearGradient1039"
+       x1="11.518643"
+       y1="46.292744"
+       x2="56.01947"
+       y2="45.821381"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1115"
+       id="linearGradient368"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.6987587,-7.0422078)"
+       x1="62.2747"
+       y1="59.532429"
+       x2="94.51339"
+       y2="59.532429" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:68.1797px;font-family:Pagul;-inkscape-font-specification:'Pagul Bold';fill:url(#linearGradient1039);fill-opacity:1;stroke-width:1.06531"
+       x="8.6550951"
+       y="70.769257"
+       id="text113"
+       transform="scale(1.0153279,0.98490348)"><tspan
+         sodipodi:role="line"
+         id="tspan111"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans Bold';fill:url(#linearGradient1039);fill-opacity:1;stroke-width:1.06531"
+         x="8.6550951"
+         y="70.769257">G</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.9195px;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans Bold';fill:url(#linearGradient368);fill-opacity:1;stroke-width:0.498743"
+       x="61.802937"
+       y="63.805687"
+       id="text1043"
+       transform="scale(1.078384,0.92731347)"><tspan
+         sodipodi:role="line"
+         id="tspan1041"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans Bold';fill:url(#linearGradient368);fill-opacity:1;stroke-width:0.498743"
+         x="61.802937"
+         y="63.805687">14</tspan></text>
+    <rect
+       style="fill:#00ffff;stroke-width:0.319092"
+       id="rect1097"
+       width="51.341064"
+       height="4.5985746"
+       x="61.876019"
+       y="65.369217"
+       transform="matrix(0.99999099,-0.00424515,0.01099291,0.99993958,0,0)"
+       inkscape:transform-center-x="-0.097286607"
+       inkscape:transform-center-y="-0.23277254"
+       ry="2.2992873" />
+  </g>
+</svg>

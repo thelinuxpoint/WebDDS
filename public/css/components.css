@@ -1,0 +1,169 @@
+.g14-sidebar{
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: calc(100vh - 20px);
+	width: 400px;
+	background: rgba(15, 42, 71, 0.96);
+	border-radius: 10px;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	box-shadow: 0px 5px 20px 1px black;
+}
+.slideshow-container {
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw 20vw;
+  grid-column-gap: 5vw;
+  margin-left: 2vw;
+}
+
+/* Hide the images by default */
+.mySlides {
+}
+.mySlides2 {
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 0.1s;
+}
+
+@keyframes fade {
+  from {opacity: 1.5}
+  to {opacity: 1}
+}
+.slidd img{
+	/*height: 400px;
+	width: 600px;*/
+/*	background-color: #151825;
+*/	border-radius: 10px;
+	box-shadow: 0px 0px 25px 1px black;
+}
+
+.gpara{
+	background: rgba(15, 15, 20, 1);
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: 800;
+	font-size: 20px;
+}
+.dashboard-start{
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard-start button{
+  padding: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: transparent;
+    font-weight: 600;
+    color: white;
+}
+.dashboard-start button:hover{
+    background: lightgreen;
+    color: black;
+    border: none;
+}
+.dashboard-start img{
+    margin-top: 30px;
+}
+.dashboard-end{
+  position: absolute;
+  top: 500px;
+  right: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard-end button{
+    padding: 10px;
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background: transparent;
+    font-weight: 600;
+    color: white;
+    transition: all .3s;
+}
+.dashboard-end button:hover{
+    background: greenyellow;
+    color: black;
+    border: none;
+}
