@@ -18,9 +18,12 @@ class UserController extends Controller
     public function login(){ 
         if(Auth::attempt(['email' => request('email'), 'password' => request('password')])){ 
             $user = Auth::user(); 
-            $success['token'] =  $user->createToken('DDS')-> accessToken; 
+            $success['token'] =  $user->createToken('MyLaravelApp')-> accessToken; 
             $success['userId'] = $user->id;
-            return response()->json(['success' => $success], $this-> successStatus); 
+            $success['name'] = $user->name;
+            $success['email'] = $user->email;
+
+             return response()->json(['success' => $success], $this-> successStatus); 
         } 
         else{ 
             return response()->json(['error'=>'Unauthorised'], 401); 
@@ -42,13 +45,13 @@ class UserController extends Controller
         ]);
         if ($validator->fails()) { 
              return response()->json(['error'=>$validator->errors()], 401);            
- }
- $input = $request->all(); 
+        }
+        $input = $request->all(); 
         $input['password'] = bcrypt($input['password']); 
         $user = User::create($input); 
-        $success['token'] =  $user->createToken('DDS')-> accessToken; 
+        $success['token'] =  $user->createToken('MyLaravelApp')-> accessToken; 
         $success['name'] =  $user->name;
- return response()->json(['success'=>$success], $this-> successStatus); 
+        return response()->json(['success'=>$success], $this-> successStatus); 
     }
  
  /** 
