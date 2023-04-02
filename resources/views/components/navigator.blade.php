@@ -1,5 +1,10 @@
 <div class="navbar">
-       
+        <div id="hambure" class="hamburger" onclick="hamburger()">
+            <div id="ham-1"></div>
+            <div id="ham-2"></div>
+            <div id="ham-3"></div>
+        </div>
+
     <div class="navbar-left">
         
         <div class="navbar-left-content" onclick="toggleStore();">

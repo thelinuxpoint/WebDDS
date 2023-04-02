@@ -47,3 +47,16 @@ function toggleElectronics(){
         document.getElementsByClassName("nav-container-electronics")[0].hidden = true
     }
 }
+
+function hamburger(arg){
+    if(document.getElementById('hambure')){
+        let c = document.getElementById('hambure');
+        c.id='hamburx';
+        // document.getElementsByClassName('flap-cpp')[0].style.left='0px';
+
+    }else if(document.getElementById('hamburx')){
+        let c = document.getElementById('hamburx');
+        c.id='hambure';
+        // document.getElementsByClassName('flap-cpp')[0].style.left='-300px'
+    }
+}
